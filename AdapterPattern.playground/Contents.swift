@@ -114,6 +114,7 @@ let samSingPhone = SamSingMobilePhone()
 let samSingAdapter = SamSingAdapter(phone: samSingPhone)
 charger.plugChargeMobile(phone:samSingAdapter)
 
+
 let phone = PhonePrototype()
 let phoneAdapter = Charger()
 phoneAdapter.plugChargeMobile(phone: phone)
